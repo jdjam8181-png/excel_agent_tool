@@ -1,0 +1,8 @@
+[source.crates-io]
+replace-with = "aliyun"
+
+[source.aliyun]
+registry = "https://mirrors.aliyun.com/crates.io-index"
+
+[net]
+git-fetch-with-cli = true

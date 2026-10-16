@@ -1,0 +1,181 @@
+{
+  "rules": [
+    {
+      "mode": "db_to_bigdata",
+      "source_db": "oceanbase",
+      "target_db": "hbase",
+
+      "source_components": {
+        "ds": {
+          "bin": [
+            "mdsd",
+            "mdsc",
+            "nfm_sender"
+          ]
+        }
+      },
+
+      "target_components": {
+        "dt": {
+          "bin": [
+            "jddmDSGKafkaEngine.jar"
+          ],
+          "module": [
+            "jddm.engine.module.databaseOperation.jar"
+          ]
+        },
+        "dy": {
+          "bin": [
+            "nfmd",
+            "yloader",
+            "mloader"
+          ]
+        }
+      }
+    },
+
+
+    {
+      "mode": "db_to_bigdata",
+      "source_db": "oracle",
+      "target_db": "kafka",
+
+      "source_components": {
+        "ds": {
+          "bin": [
+            "vagentd",
+            "aoxd",
+            "oxad"
+          ]
+        }
+      },
+
+      "target_components": {
+        "dt": {
+          "bin": [
+            "jddmDSGKafkaEngine.jar"
+          ],
+          "module": [
+            "jddm.engine.module.databaseOperation.jar"
+          ]
+        },
+        "dy": {
+          "bin": [
+            "xagentd",
+            "yloader",
+            "mloader"
+          ]
+        }
+      }
+    },
+
+
+    {
+      "mode": "db_to_bigdata",
+      "source_db": "oceanbase",
+      "target_db": "kafka",
+
+      "source_components": {
+        "ds": {
+          "bin": [
+            "mdsd",
+            "mdsc",
+            "nfm_sender"
+          ]
+        }
+      },
+
+      "target_components": {
+        "dt": {
+          "bin": [
+            "jddmDSGKafkaEngine.jar"
+          ],
+          "module": [
+            "jddm.engine.module.databaseOperation.jar"
+          ]
+        },
+        "dy": {
+          "bin": [
+            "nfmd",
+            "yloader",
+            "mloader"
+          ]
+        }
+      }
+    },
+
+
+    {
+      "mode": "db_to_db",
+      "source_db": "oceanbase",
+      "target_db": "oceanbase",
+
+      "source_components": {
+        "ds": {
+          "bin": [
+            "mdsd",
+            "mdsc",
+            "nfm_sender"
+          ]
+        }
+      },
+
+      "target_components": {
+        "dt": {
+          "bin": [
+            "nfmd",
+            "yloader",
+            "mloader"
+          ]
+        }
+      }
+    },
+
+
+    {
+      "mode": "special",
+      "source_db": "xpmon",
+      "target_db": "xpmon",
+
+      "source_components": {
+        "xpmon": {
+          "bin": [
+            "pmon"
+          ]
+        }
+      },
+
+      "target_components": {
+        "xpmon": {
+          "bin": [
+            "pmon"
+          ]
+        }
+      }
+    },
+
+
+    {
+      "mode": "special",
+      "source_db": "newxpmon",
+      "target_db": "newxpmon",
+
+      "source_components": {
+        "xpmon": {
+          "bin": [
+            "newxpmon"
+          ]
+        }
+      },
+
+      "target_components": {
+        "xpmon": {
+          "bin": [
+            "newxpmon"
+          ]
+        }
+      }
+    }
+
+  ]
+}

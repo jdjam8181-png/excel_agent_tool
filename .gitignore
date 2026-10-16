@@ -1,0 +1,7 @@
+/target
+*.log
+/log/
+.env
+Cargo.lock
+/stop_tool/log/
+/scp_tool/log/

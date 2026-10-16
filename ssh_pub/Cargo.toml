@@ -1,0 +1,71 @@
+[package]
+name = "ssh_pub"
+version = "0.1.0"
+edition = "2024"
+authors = ["your_name"]
+description = "Common SSH library for agent tools"
+
+
+[dependencies]
+
+
+#
+# SSH核心
+#
+ssh2 = "0.9.6"
+
+
+
+#
+# Excel读取
+#
+calamine = "0.24.0"
+
+
+
+#
+# 错误处理
+#
+anyhow = "1.0"
+
+
+
+#
+# 序列化
+#
+serde = {
+    version = "1.0",
+    features = [
+        "derive"
+    ]
+}
+
+
+serde_json = "1.0"
+
+
+
+#
+# 时间
+# logger.rs使用
+#
+chrono = "0.4"
+
+
+
+#
+# MD5
+#
+md-5 = "0.10"
+
+hex = "0.4"
+
+
+
+#
+# 日志
+#
+log = "0.4"
+
+env_logger = "0.11"
+

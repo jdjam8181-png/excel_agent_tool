@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "ssh_pub",
+    "ssh_link",
+    "stop_tool",
+    "scp_tool"
+]
+
+resolver = "2"

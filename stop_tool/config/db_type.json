@@ -1,0 +1,57 @@
+{
+  "rules": [
+
+    {
+      "source_db": "ocenbase",
+      "target_db": "ocenbase",
+      "components": [
+        "ds",
+        "dt"
+      ]
+    },
+
+
+    {
+      "source_db": "oracle",
+      "target_db": "ocenbase",
+      "components": [
+        "ds",
+        "dt"
+      ]
+    },
+
+
+    {
+      "source_db": "oracle",
+      "target_db": "kafka",
+      "components": [
+        "ds",
+        "dt",
+        "dy"
+      ]
+    },
+
+
+    {
+      "source_db": "oceanbase",
+      "target_db": "habase",
+      "components": [
+        "ds",
+        "dt",
+        "dy"
+      ]
+    },
+
+
+    {
+      "source_db": "oracle",
+      "target_db": "fastore",
+      "components": [
+        "ds",
+        "dt",
+        "dy"
+      ]
+    }
+
+  ]
+}

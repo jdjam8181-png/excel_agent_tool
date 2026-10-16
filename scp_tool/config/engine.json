@@ -1,0 +1,155 @@
+{
+  "engines": {
+    "special": {
+      "xpmon": {
+        "x86": {
+          "local": {
+            "bin": "/data/enginedsg/x86/xpmon/bin"
+          },
+          "remote": {
+            "bin": "/data/dataxone/xpmon/pmon/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin": "/package/xpmon/arm"
+          },
+          "remote": {
+            "bin": "/oms/dsg/supersync5/xpmon/pmon/bin"
+          }
+        }
+      }
+    },
+
+    "oracle": {
+      "ds": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oracle/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_name}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/dsg/dataxone/enginedsg/c/SODT_D_M/Supersync/ORACLE/arm/64bit/19c/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_name}/bin"
+          }
+        }
+      }
+    },
+    "oceanbase": {
+      "ds": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oceanbase/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_name}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/dsg/dataxone/enginedsg/c/SODT_D_M/Supersync/OCENBASE_ORACLE/arm/64bit/4.2.1/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_name}/bin"
+          }
+        }
+      },
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oracle/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/dsg/dataxone/enginedsg/c/SODT_D_M/Supersync/OCENBASE_ORACLE/arm/64bit/4.2.1/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}/bin"
+          }
+        }
+      }
+    },
+    "hbase": {
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/bin",
+            "module":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/module"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}/bin",
+            "module":
+            "{base_dir}/{service_name}/dt_{service_name}/module"
+          }
+        }
+      },
+      "dy": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}_y/bin"
+          }
+        }
+      }
+    },
+    "kafka": {
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/bin",
+            "module":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/module"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}/bin",
+            "module":
+            "{base_dir}/{service_name}/dt_{service_name}/module"
+          }
+        }
+      },
+      "dy": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_name}_y/bin"
+          }
+        }
+      }
+    }
+  }
+}
