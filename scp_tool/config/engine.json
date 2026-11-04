@@ -1,0 +1,251 @@
+{
+  "engines": {
+    "special": {
+      "xpmon": {
+        "x86": {
+          "local": {
+            "bin": "/data/enginedsg/x86/xpmon/bin"
+          },
+          "remote": {
+            "bin": "/data/dataxone/xpmon/pmon/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin": "/package/xpmon/arm"
+          },
+          "remote": {
+            "bin": "/oms/dsg/supersync5/xpmon/pmon/bin"
+          }
+        }
+      }
+    },
+
+    "oracle": {
+      "ds": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oracle/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        }
+      },
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oracle/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        }
+      }
+    },
+
+    "oceanbase": {
+      "ds": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oceanbase/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        }
+      },
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/oracle/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        }
+      }
+    },
+
+    "goldendb": {
+      "ds": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/goldendb/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/ds/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/ds_{service_prefix}/bin"
+          }
+        }
+      },
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/goldendb/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        }
+      }
+    },
+
+    "fastore": {
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/fastore/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        },
+        "arm": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin"
+          }
+        }
+      }
+    },
+
+    "hbase": {
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/bin",
+            "module":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/module"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin",
+            "module":
+            "{base_dir}/{service_name}/dt_{service_prefix}/module"
+          }
+        }
+      },
+      "dy": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}_y/bin"
+          }
+        }
+      }
+    },
+    "kafka": {
+      "dt": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/bin",
+            "module":
+            "/data/enginedsg/x86/hbase/Jddm_socket_kafka10/module"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}/bin",
+            "module":
+            "{base_dir}/{service_name}/dt_{service_prefix}/module"
+          }
+        }
+      },
+      "dy": {
+        "x86": {
+          "local": {
+            "bin":
+            "/data/enginedsg/x86/hbase/dt/bin"
+          },
+          "remote": {
+            "bin":
+            "{base_dir}/{service_name}/dt_{service_prefix}_y/bin"
+          }
+        }
+      }
+    }
+  }
+}

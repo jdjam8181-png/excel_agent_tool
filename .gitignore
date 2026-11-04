@@ -1,0 +1,9 @@
+/target/
+/log/
+**/log/
+*.log
+*.core
+
+# Local history and configuration backups
+/scp_tool/.replace_history
+/scp_tool/config/bak/

@@ -1,0 +1,32 @@
+[package]
+name = "ssh_link"
+version = "0.1.0"
+edition = "2024"
+authors = ["your_name"]
+description = "SSH connection test tool"
+
+
+[dependencies]
+
+
+# 引用公共库
+ssh_pub = {
+    path = "../ssh_pub"
+}
+
+
+# 命令行参数
+clap = {
+    version = "4.5.53",
+    features = [
+        "derive",
+        "cargo"
+    ]
+}
+
+anyhow = "1.0"
+
+# 日志
+log = "0.4"
+
+env_logger = "0.11"
